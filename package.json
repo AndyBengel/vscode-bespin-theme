@@ -1,0 +1,22 @@
+{
+	"name": "bespin-geany-theme",
+	"displayName": "Bespin Geany Theme",
+	"description": "A custom theme for VS Code based on Geany's Bespin theme.",
+	"version": "0.0.1",
+	"publisher": "Andy Bengel",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Bespin Geany Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bespin-geany-color-theme.tmTheme.xml"
+			}
+		]
+	}
+}
